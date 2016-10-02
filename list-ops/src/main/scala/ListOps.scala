@@ -1,7 +1,8 @@
 package ListOps
 
 object ListOps {
-  def count(list: List[Any]): Int = {
-    0 // Your implementation goes here!
+  def count(list: List[Any]): Int = list match {
+    case _ :: tail => 1 + count(tail)
+    case Nil => 0
   }
 }
