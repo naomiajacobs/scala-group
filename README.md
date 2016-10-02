@@ -4,3 +4,4 @@ This repo contains the source code and tests for a Scala project group. It's lik
 
 - Week 1 - Workstation setup
 - Week 2 - [Hello World](hello/)
+- Week 3 - [List Ops](list-ops/)
